@@ -5,6 +5,8 @@ import './App.css'
 import Counter from './Tasks/01_Counter'
 import ParagrapghToogle from './Tasks/02_ParagrapghToggle'
 import RandomNumberGenerate from './Tasks/03_RandomNumberGenerate'
+import SimpleInterest from './Tasks/04_SimpleInterest'
+import SelectAllCheckbox from './Tasks/05_SelectAllCheckboxes'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -13,7 +15,9 @@ function App() {
     <>
     {/* <Counter/> */}
     {/* <ParagrapghToogle/> */}
-    <RandomNumberGenerate/>
+    {/* <RandomNumberGenerate/> */}
+    {/* <SimpleInterest/> */}
+    <SelectAllCheckbox/>
     </>
   )
 }
