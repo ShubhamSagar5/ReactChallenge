@@ -7,6 +7,7 @@ import ParagrapghToogle from './Tasks/02_ParagrapghToggle'
 import RandomNumberGenerate from './Tasks/03_RandomNumberGenerate'
 import SimpleInterest from './Tasks/04_SimpleInterest'
 import SelectAllCheckbox from './Tasks/05_SelectAllCheckboxes'
+import SimpleClock from './Tasks/06_SimpleClock'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -17,7 +18,8 @@ function App() {
     {/* <ParagrapghToogle/> */}
     {/* <RandomNumberGenerate/> */}
     {/* <SimpleInterest/> */}
-    <SelectAllCheckbox/>
+    {/* <SelectAllCheckbox/> */}
+    <SimpleClock/>
     </>
   )
 }
