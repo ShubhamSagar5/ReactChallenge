@@ -8,6 +8,8 @@ import RandomNumberGenerate from './Tasks/03_RandomNumberGenerate'
 import SimpleInterest from './Tasks/04_SimpleInterest'
 import SelectAllCheckbox from './Tasks/05_SelectAllCheckboxes'
 import SimpleClock from './Tasks/06_SimpleClock'
+import EventHandle from './Tasks/07_EventHandling'
+import SimpleTimer from './Tasks/08_SimpleTimer'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -19,7 +21,9 @@ function App() {
     {/* <RandomNumberGenerate/> */}
     {/* <SimpleInterest/> */}
     {/* <SelectAllCheckbox/> */}
-    <SimpleClock/>
+    {/* <SimpleClock/> */}
+    {/* <EventHandle/> */}
+    <SimpleTimer/>
     </>
   )
 }
