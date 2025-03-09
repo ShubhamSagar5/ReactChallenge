@@ -10,6 +10,9 @@ import SelectAllCheckbox from './Tasks/05_SelectAllCheckboxes'
 import SimpleClock from './Tasks/06_SimpleClock'
 import EventHandle from './Tasks/07_EventHandling'
 import SimpleTimer from './Tasks/08_SimpleTimer'
+import CharacterCounter from './Tasks/09_CharacterCounter'
+import HoverCounter from './Tasks/10_HoverCounter'
+import RatingComponent from './Tasks/11_ RatingComponent'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -23,7 +26,10 @@ function App() {
     {/* <SelectAllCheckbox/> */}
     {/* <SimpleClock/> */}
     {/* <EventHandle/> */}
-    <SimpleTimer/>
+    {/* <SimpleTimer/> */}
+    {/* <CharacterCounter/> */}
+    {/* <HoverCounter/> */}
+    <RatingComponent/>
     </>
   )
 }
