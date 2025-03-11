@@ -13,6 +13,7 @@ import SimpleTimer from './Tasks/08_SimpleTimer'
 import CharacterCounter from './Tasks/09_CharacterCounter'
 import HoverCounter from './Tasks/10_HoverCounter'
 import RatingComponent from './Tasks/11_ RatingComponent'
+import DistanceConverter from './Tasks/12_DistanceConverter'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -29,7 +30,8 @@ function App() {
     {/* <SimpleTimer/> */}
     {/* <CharacterCounter/> */}
     {/* <HoverCounter/> */}
-    <RatingComponent/>
+    {/* <RatingComponent/> */}
+    <DistanceConverter/>
     </>
   )
 }
