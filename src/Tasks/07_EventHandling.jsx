@@ -2,14 +2,18 @@ const EventHandle = () => {
   
   const handleOuter = () => {
     console.log("outer Called")
+   
   }
   const handleMiddle = (e) => {
     console.log("Middle Called")
-    e.stopPropagation()
+   
+  }
+  const handleMiddle2 = (e) => {
+    console.log("Middle2 Called")
+   
   }
   const handleInner = (e) => {
     console.log("Inner Called")
-    e.stopPropagation()
   } 
 
   const handler = (e) => {
@@ -19,19 +23,22 @@ const EventHandle = () => {
 
   return (
     <div>
-      {/* <div className="border p-10 bg-amber-800" onClick={handleOuter}>
+      / <div className="border p-10 bg-amber-800" onClickCapture={handleOuter}>
         Outer
-        <div  className="border m-10 p-10 bg-amber-600" onClick={handleMiddle}>
+        <div  className="border m-10 p-10 bg-amber-600" onClickCapture={handleMiddle}>
           Middle
+          <div  className="border m-10 p-10 bg-amber-600" onClick={handleMiddle2}> middle2
           <div  className="border m-10 p-10 bg-amber-400" onClick={handleInner}> Inner</div>
-        </div>
-      </div> */} 
+          </div>
+   </div>
+          
+      </div> /
 
-        <ul onClick={(e)=>handler(e)}>
+        {/* <ul onClick={(e)=>handler(e)}>
           <li>Item1</li>
           <li>Item2</li>
           <li>Item3</li>
-        </ul>
+        </ul> */}
 
     </div>
   );

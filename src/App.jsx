@@ -14,6 +14,8 @@ import CharacterCounter from './Tasks/09_CharacterCounter'
 import HoverCounter from './Tasks/10_HoverCounter'
 import RatingComponent from './Tasks/11_ RatingComponent'
 import DistanceConverter from './Tasks/12_DistanceConverter'
+import ColorPalettes from './Tasks/13_ColorPalettes'
+import Accordian from './Tasks/14_Accordian'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -31,7 +33,9 @@ function App() {
     {/* <CharacterCounter/> */}
     {/* <HoverCounter/> */}
     {/* <RatingComponent/> */}
-    <DistanceConverter/>
+    {/* <DistanceConverter/> */} 
+    {/* <ColorPalettes/> */}
+    <Accordian/>
     </>
   )
 }
