@@ -23,9 +23,9 @@ const EventHandle = () => {
 
   return (
     <div>
-      / <div className="border p-10 bg-amber-800" onClickCapture={handleOuter}>
+      / <div className="border p-10 bg-amber-800" onClick={handleOuter}>
         Outer
-        <div  className="border m-10 p-10 bg-amber-600" onClickCapture={handleMiddle}>
+        <div  className="border m-10 p-10 bg-amber-600" onClick={handleMiddle}>
           Middle
           <div  className="border m-10 p-10 bg-amber-600" onClick={handleMiddle2}> middle2
           <div  className="border m-10 p-10 bg-amber-400" onClick={handleInner}> Inner</div>

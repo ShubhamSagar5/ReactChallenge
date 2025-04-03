@@ -16,6 +16,8 @@ import RatingComponent from './Tasks/11_ RatingComponent'
 import DistanceConverter from './Tasks/12_DistanceConverter'
 import ColorPalettes from './Tasks/13_ColorPalettes'
 import Accordian from './Tasks/14_Accordian'
+import TabComponent from './Tasks/15_TabComponent'
+import Pagination from './Tasks/16_Pagination'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -35,7 +37,9 @@ function App() {
     {/* <RatingComponent/> */}
     {/* <DistanceConverter/> */} 
     {/* <ColorPalettes/> */}
-    <Accordian/>
+    {/* <Accordian/> */}
+    {/* <TabComponent/> */}
+    <Pagination/>
     </>
   )
 }
