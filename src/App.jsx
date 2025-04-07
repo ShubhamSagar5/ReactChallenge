@@ -19,6 +19,7 @@ import Accordian from './Tasks/14_Accordian'
 import TabComponent from './Tasks/15_TabComponent'
 import Pagination from './Tasks/16_Pagination'
 import MultiplicationTable from './Tasks/17_MultiplicationTableGenerator'
+import LocalStorage from './Tasks/18_LocalStorage'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -41,7 +42,8 @@ function App() {
     {/* <Accordian/> */}
     {/* <TabComponent/> */}
     {/* <Pagination/> */}
-    <MultiplicationTable/>
+    {/* <MultiplicationTable/> */}
+    <LocalStorage/>
     </>
   )
 }
