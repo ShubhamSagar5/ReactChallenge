@@ -21,6 +21,7 @@ import Pagination from './Tasks/16_Pagination'
 import MultiplicationTable from './Tasks/17_MultiplicationTableGenerator'
 import LocalStorage from './Tasks/18_LocalStorage'
 import DaysRemainig from './Tasks/19_DaysCount'
+import FormValidation from './Tasks/20_FormValidation'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -45,7 +46,8 @@ function App() {
     {/* <Pagination/> */}
     {/* <MultiplicationTable/> */}
     {/* <LocalStorage/> */}
-    <DaysRemainig/>
+    {/* <DaysRemainig/> */}
+    <FormValidation/>
     </>
   )
 }
