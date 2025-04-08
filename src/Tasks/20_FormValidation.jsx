@@ -94,7 +94,7 @@ first:null,
             <br />
             </div>
 
-            <button onClick={handleFormSubmit} >Submit </button>
+            <button onClick={handleFormSubmit} >Submit</button>
         </div>
     )
 }
