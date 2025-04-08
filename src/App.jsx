@@ -20,6 +20,7 @@ import TabComponent from './Tasks/15_TabComponent'
 import Pagination from './Tasks/16_Pagination'
 import MultiplicationTable from './Tasks/17_MultiplicationTableGenerator'
 import LocalStorage from './Tasks/18_LocalStorage'
+import DaysRemainig from './Tasks/19_DaysCount'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -43,7 +44,8 @@ function App() {
     {/* <TabComponent/> */}
     {/* <Pagination/> */}
     {/* <MultiplicationTable/> */}
-    <LocalStorage/>
+    {/* <LocalStorage/> */}
+    <DaysRemainig/>
     </>
   )
 }
